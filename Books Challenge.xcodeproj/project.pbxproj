@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		CDD5B9D2266829B400BC9AAC /* Books_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5B9D1266829B400BC9AAC /* Books_ChallengeApp.swift */; };
-		CDD5B9D4266829B400BC9AAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5B9D3266829B400BC9AAC /* ContentView.swift */; };
 		CDD5B9D6266829B500BC9AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD5B9D5266829B500BC9AAC /* Assets.xcassets */; };
 		CDD5B9D9266829B500BC9AAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD5B9D8266829B500BC9AAC /* Preview Assets.xcassets */; };
+		CDD5B9E526682A4E00BC9AAC /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = CDD5B9E426682A4E00BC9AAC /* Data.json */; };
+		CDD5B9E72668304300BC9AAC /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5B9E62668304300BC9AAC /* Book.swift */; };
+		CDD5B9E9266830EC00BC9AAC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5B9E8266830EC00BC9AAC /* ViewModel.swift */; };
+		CDD5B9EC2668315E00BC9AAC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5B9EB2668315E00BC9AAC /* DataService.swift */; };
+		CDD5B9F42668753600BC9AAC /* BookPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5B9F32668753600BC9AAC /* BookPreview.swift */; };
+		CDD5B9F6266878A400BC9AAC /* BookContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5B9F5266878A400BC9AAC /* BookContent.swift */; };
+		CDD5B9F826687AE800BC9AAC /* StagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5B9F726687AE800BC9AAC /* StagingView.swift */; };
+		CDD5B9FA26687F5F00BC9AAC /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5B9F926687F5F00BC9AAC /* BookListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDD5B9CE266829B400BC9AAC /* Books Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Books Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD5B9D1266829B400BC9AAC /* Books_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books_ChallengeApp.swift; sourceTree = "<group>"; };
-		CDD5B9D3266829B400BC9AAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDD5B9D5266829B500BC9AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDD5B9D8266829B500BC9AAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDD5B9DA266829B500BC9AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD5B9E426682A4E00BC9AAC /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		CDD5B9E62668304300BC9AAC /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CDD5B9E8266830EC00BC9AAC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CDD5B9EB2668315E00BC9AAC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CDD5B9F32668753600BC9AAC /* BookPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPreview.swift; sourceTree = "<group>"; };
+		CDD5B9F5266878A400BC9AAC /* BookContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContent.swift; sourceTree = "<group>"; };
+		CDD5B9F726687AE800BC9AAC /* StagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagingView.swift; sourceTree = "<group>"; };
+		CDD5B9F926687F5F00BC9AAC /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +67,11 @@
 			isa = PBXGroup;
 			children = (
 				CDD5B9D1266829B400BC9AAC /* Books_ChallengeApp.swift */,
-				CDD5B9D3266829B400BC9AAC /* ContentView.swift */,
+				CDD5B9E026682A1200BC9AAC /* Views */,
+				CDD5B9E326682A3500BC9AAC /* ViewModels */,
+				CDD5B9E226682A2800BC9AAC /* Models */,
+				CDD5B9EA2668314100BC9AAC /* Services */,
+				CDD5B9E126682A1C00BC9AAC /* Data */,
 				CDD5B9D5266829B500BC9AAC /* Assets.xcassets */,
 				CDD5B9DA266829B500BC9AAC /* Info.plist */,
 				CDD5B9D7266829B500BC9AAC /* Preview Content */,
@@ -67,6 +85,49 @@
 				CDD5B9D8266829B500BC9AAC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDD5B9E026682A1200BC9AAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDD5B9F926687F5F00BC9AAC /* BookListView.swift */,
+				CDD5B9F726687AE800BC9AAC /* StagingView.swift */,
+				CDD5B9F5266878A400BC9AAC /* BookContent.swift */,
+				CDD5B9F32668753600BC9AAC /* BookPreview.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDD5B9E126682A1C00BC9AAC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CDD5B9E426682A4E00BC9AAC /* Data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CDD5B9E226682A2800BC9AAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDD5B9E62668304300BC9AAC /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDD5B9E326682A3500BC9AAC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CDD5B9E8266830EC00BC9AAC /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CDD5B9EA2668314100BC9AAC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CDD5B9EB2668315E00BC9AAC /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +189,7 @@
 			files = (
 				CDD5B9D9266829B500BC9AAC /* Preview Assets.xcassets in Resources */,
 				CDD5B9D6266829B500BC9AAC /* Assets.xcassets in Resources */,
+				CDD5B9E526682A4E00BC9AAC /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +200,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDD5B9D4266829B400BC9AAC /* ContentView.swift in Sources */,
+				CDD5B9FA26687F5F00BC9AAC /* BookListView.swift in Sources */,
+				CDD5B9F42668753600BC9AAC /* BookPreview.swift in Sources */,
 				CDD5B9D2266829B400BC9AAC /* Books_ChallengeApp.swift in Sources */,
+				CDD5B9F6266878A400BC9AAC /* BookContent.swift in Sources */,
+				CDD5B9F826687AE800BC9AAC /* StagingView.swift in Sources */,
+				CDD5B9E72668304300BC9AAC /* Book.swift in Sources */,
+				CDD5B9E9266830EC00BC9AAC /* ViewModel.swift in Sources */,
+				CDD5B9EC2668315E00BC9AAC /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
